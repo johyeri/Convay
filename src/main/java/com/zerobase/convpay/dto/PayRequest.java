@@ -23,23 +23,12 @@ public class PayRequest {
         return payMethodType;
     }
 
-    public void setPayMethodType(PayMethodType payMethodType) {
-        this.payMethodType = payMethodType;
-    }
-
     public ConvenienceType getConvenienceType() {
         return convenienceType;
-    }
-
-    public void setConvenienceType(ConvenienceType convenienceType) {
-        this.convenienceType = convenienceType;
     }
 
     public Integer getPayAmount() {
         return payAmount;
     }
 
-    public void setPayAmount(Integer payAmount) {
-        this.payAmount = payAmount;
-    }
 }

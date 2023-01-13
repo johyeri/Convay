@@ -21,16 +21,8 @@ public class PayResponse {
         return payResult;
     }
 
-    public void setPayResult(PayResult payResult) {
-        this.payResult = payResult;
-    }
-
     public Integer getPaidAmount() {
         return paidAmount;
-    }
-
-    public void setPaidAmount(Integer paidAmount) {
-        this.paidAmount = paidAmount;
     }
 
     @Override

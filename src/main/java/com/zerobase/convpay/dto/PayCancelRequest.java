@@ -23,24 +23,8 @@ public class PayCancelRequest {
         return payMethodType;
     }
 
-    public void setPayMethodType(PayMethodType payMethodType) {
-        this.payMethodType = payMethodType;
-    }
-
-    public ConvenienceType getConvenienceType() {
-        return convenienceType;
-    }
-
-    public void setConvenienceType(ConvenienceType convenienceType) {
-        this.convenienceType = convenienceType;
-    }
-
     public Integer getPayCancelAmount() {
         return payCancelAmount;
-    }
-
-    public void setPayCancelAmount(Integer payCancelAmount) {
-        this.payCancelAmount = payCancelAmount;
     }
 
     @Override

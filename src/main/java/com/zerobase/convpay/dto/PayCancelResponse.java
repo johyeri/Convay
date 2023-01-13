@@ -23,15 +23,8 @@ public class PayCancelResponse {
         return payCancelResult;
     }
 
-    public void setPayCancelResult(PayCancelResult payCancelResult) {
-        this.payCancelResult = payCancelResult;
-    }
-
     public Integer getPayCanceledAmount() {
         return payCanceledAmount;
     }
 
-    public void setPayCanceledAmount(Integer payCanceledAmount) {
-        this.payCanceledAmount = payCanceledAmount;
-    }
 }
